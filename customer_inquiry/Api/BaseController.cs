@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace customer_inquiry
+namespace customer_inquiry.Api
 {
     public abstract class BaseController : Controller
     {

@@ -17,10 +17,4 @@
     <ProjectReference Include="..\customer_inquiry.Data\customer_inquiry.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Api\" />
-    <Folder Include="Dto\" />
-    <Folder Include="Profiles\" />
-  </ItemGroup>
-
 </Project>
