@@ -5,3 +5,5 @@
 /customer_inquiry/obj
 /.vs
 /customer_inquiry/.vs/customer_inquiry/v16
+/customer_inquiry/.vs/customer_inquiry/DesignTimeBuild
+/customer_inquiry.Domain/obj
