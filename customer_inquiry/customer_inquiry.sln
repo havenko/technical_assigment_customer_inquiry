@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "customer_inquiry", "custome
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customer_inquiry.Domain", "..\customer_inquiry.Domain\customer_inquiry.Domain.csproj", "{D916459D-12FD-424F-B515-5AEEFC8C6F26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customer_inquiry.Data", "..\customer_inquiry.Data\customer_inquiry.Data.csproj", "{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{869CB6BB-B28A-46F5-B076-B27889BECB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869CB6BB-B28A-46F5-B076-B27889BECB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869CB6BB-B28A-46F5-B076-B27889BECB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D916459D-12FD-424F-B515-5AEEFC8C6F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D916459D-12FD-424F-B515-5AEEFC8C6F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D916459D-12FD-424F-B515-5AEEFC8C6F26}.Release|Any CPU.ActiveCfg = Release|Any CPU

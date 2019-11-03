@@ -2,8 +2,51 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+\bin
+\obj
+packages
+*.suo
+
 /customer_inquiry/obj
 /.vs
 /customer_inquiry/.vs/customer_inquiry/v16
 /customer_inquiry/.vs/customer_inquiry/DesignTimeBuild
 /customer_inquiry.Domain/obj
+/customer_inquiry.Data/obj
