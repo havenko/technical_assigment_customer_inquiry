@@ -6,12 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\customer_inquiry.BL\customer_inquiry.BL.csproj" />
+    <ProjectReference Include="..\customer_inquiry.DAL\customer_inquiry.DAL.csproj" />
     <ProjectReference Include="..\customer_inquiry.Data\customer_inquiry.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Api\" />
+    <Folder Include="Dto\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
 
 </Project>
