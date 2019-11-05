@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\customer_inquiry.BL\customer_inquiry.BL.csproj" />
-    <ProjectReference Include="..\customer_inquiry.DAL\customer_inquiry.DAL.csproj" />
-    <ProjectReference Include="..\customer_inquiry.Data\customer_inquiry.Data.csproj" />
+    <ProjectReference Include="..\customer_inquiry.BL\CustomerInquiry.BL.csproj" />
+    <ProjectReference Include="..\customer_inquiry.DAL\CustomerInquiry.DAL.csproj" />
+    <ProjectReference Include="..\customer_inquiry.Data\CustomerInquiry.Data.csproj" />
   </ItemGroup>
 
 </Project>

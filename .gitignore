@@ -41,6 +41,7 @@ Icon
 .Trashes
 \bin
 \obj
+\.vs
 packages
 *.suo
 

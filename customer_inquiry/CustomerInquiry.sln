@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28902.138
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "customer_inquiry", "customer_inquiry.csproj", "{869CB6BB-B28A-46F5-B076-B27889BECB7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerInquiry.Web", "CustomerInquiry.Web.csproj", "{869CB6BB-B28A-46F5-B076-B27889BECB7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "customer_inquiry.Domain", "..\customer_inquiry.Domain\customer_inquiry.Domain.csproj", "{D916459D-12FD-424F-B515-5AEEFC8C6F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerInquiry.Domain", "..\customer_inquiry.Domain\CustomerInquiry.Domain.csproj", "{D916459D-12FD-424F-B515-5AEEFC8C6F26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "customer_inquiry.Data", "..\customer_inquiry.Data\customer_inquiry.Data.csproj", "{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerInquiry.Data", "..\customer_inquiry.Data\CustomerInquiry.Data.csproj", "{4BFE5D4A-9985-43B4-A643-ACAC62CA0F4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customer_inquiry.DAL", "..\customer_inquiry.DAL\customer_inquiry.DAL.csproj", "{780C4FC8-4CE4-485E-B1D4-60EED6AC40B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerInquiry.DAL", "..\customer_inquiry.DAL\CustomerInquiry.DAL.csproj", "{780C4FC8-4CE4-485E-B1D4-60EED6AC40B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "customer_inquiry.BL", "..\customer_inquiry.BL\customer_inquiry.BL.csproj", "{17362BC1-7706-4B15-9B43-931A0CF55A58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerInquiry.BL", "..\customer_inquiry.BL\CustomerInquiry.BL.csproj", "{17362BC1-7706-4B15-9B43-931A0CF55A58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
