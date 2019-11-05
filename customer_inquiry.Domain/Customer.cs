@@ -9,13 +9,13 @@ namespace customer_inquiry.Domain
 {
     public class Customer
     {
-        [Range(1, 1000000000)]
         public int ID { get; set; }
 
         [MaxLength(30)]
         public string Name { get; set; }
 
         [MaxLength(25)]
+        [RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$")]
         public string Email { get; set; }
 
         [StringLength(10)]
