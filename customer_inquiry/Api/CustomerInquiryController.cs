@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,6 +24,10 @@ namespace customer_inquiry.Api
         }
 
         [HttpGet]
+        [Produces("application/json")]
+        [ProducesResponseType(typeof(CustomerInquiryResponseDto), (int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
         public IActionResult Get(int? customerID, string email)
         {
             if(!customerID.HasValue && String.IsNullOrWhiteSpace(email))
